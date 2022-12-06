@@ -1,6 +1,6 @@
+import Login from '@/views/Login.vue';
 const MainLayout = () => import(/* webpackChunkName: "v-v" */ '@/layout/MainLayout.vue');
 const Unauthorized = () => import(/* webpackChunkName: "v-v" */ '@/views/Unauthorized.vue');
-import Login from '@/views/Login.vue';
 
 export default [
     {
