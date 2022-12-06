@@ -1,0 +1,24 @@
+.flex-display {
+  display: flex;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-equal-space {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-gap: 10px;
+}
