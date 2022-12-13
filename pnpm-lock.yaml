@@ -11,6 +11,7 @@ specifiers:
   concurrently: ^7.6.0
   czg: 1.4.1
   eslint: ^8.29.0
+  eslint-config-prettier: ^8.5.0
   eslint-config-semistandard: ^17.0.0
   eslint-formatter-pretty: ^4.1.0
   eslint-import-resolver-alias: ^1.1.2
@@ -56,6 +57,7 @@ devDependencies:
   concurrently: 7.6.0
   czg: 1.4.1
   eslint: 8.29.0
+  eslint-config-prettier: 8.5.0_eslint@8.29.0
   eslint-config-semistandard: 17.0.0_cykvjicxdawbed5veuukl3ltpq
   eslint-formatter-pretty: 4.1.0
   eslint-import-resolver-alias: 1.1.2_fkfqfehjtk7sk2efaqbgxsuasa

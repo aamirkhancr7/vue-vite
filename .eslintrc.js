@@ -8,14 +8,7 @@ module.exports = {
         browser: true,
         node: true,
     },
-    extends: [
-        'plugin:vue/vue3-essential',
-        'semistandard',
-        'plugin:import/recommended',
-        'plugin:sonarjs/recommended',
-        'plugin:promise/recommended',
-        '@vue/eslint-config-prettier',
-    ],
+    extends: ['plugin:vue/vue3-essential', 'semistandard', 'plugin:import/recommended', 'plugin:sonarjs/recommended', 'plugin:promise/recommended', 'prettier'],
     parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
@@ -31,7 +24,7 @@ module.exports = {
             extends: ['plugin:@html-eslint/recommended'],
             rules: {
                 'spaced-comment': 'off',
-                '@html-eslint/indent': ['error', 2],
+                '@html-eslint/indent': ['error', 4],
                 '@html-eslint/require-meta-charset': 'error',
                 '@html-eslint/require-meta-viewport': 'error',
                 '@html-eslint/require-meta-description': 'error',

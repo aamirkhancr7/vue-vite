@@ -1,5 +1,5 @@
-import { fileURLToPath, URL } from 'node:url';
-
+// import { fileURLToPath, URL } from 'node:url';
+import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import { manualChunksPlugin } from 'vite-plugin-webpackchunkname';
@@ -9,7 +9,8 @@ export default defineConfig({
     plugins: [vue(), manualChunksPlugin()],
     resolve: {
         alias: {
-            '@': fileURLToPath(new URL('./src', import.meta.url)),
+            '@': resolve(__dirname, 'src'),
+            // '@': fileURLToPath(new URL('./src', import.meta.url)),
         },
     },
 });
