@@ -11,5 +11,3 @@ export default {
     name: 'App',
 };
 </script>
-
-<style scoped></style>
