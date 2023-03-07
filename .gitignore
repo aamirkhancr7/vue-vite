@@ -26,3 +26,4 @@ coverage
 *.sln
 *.sw?
 !/build-stats.html
+.env
